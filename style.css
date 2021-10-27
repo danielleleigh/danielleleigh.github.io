@@ -4,6 +4,12 @@ h1 {
   top: 300px;
 }
 
+h2 {
+  text-align: center;
+  color: #f5bd62;
+  text-decoration: underline;
+}
+
 body {
   background-image: url("/Users/danielle/Desktop/Design Elements/Digital Paper/Mystical/pattern_8.jpg");
   font-family: Black Wano Demo;
@@ -35,41 +41,46 @@ img {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  border: 5px black;
 }
 
 .image {
-  flex-basis: 5%;
+  margin-left: 300px;
+  margin-right: 60px;
+  left: -10px;
+  border: 5px solid black;
+  border-style: double;
+  object-fit: cover;
+  border-color: #8d5d3f;
   /* display: block; */
   /* margin-left: -300px;
   margin-right: 50px; */
-  margin-left: 350px;
-  margin-right: 60px;
-  position: relative;
-  left: -10px;
-  border: 5px solid black;
   /* max-width: auto; */
 }
 
 .paragraph1 {
-  font-size: 14px;
-  /* padding-right: 100px; */
-  border: 5px solid black;
+  font-size: 20px;
+  display: inline-block;
+  /* border: 5px double black; */
   text-align: center;
   position: relative;
-  left: 270px;
-  bottom: 80px;
+  left: 100px;
+  bottom: 60px;
+  line-height: 24px;
+  color: #8d5d3f;
 }
 
 .languagesknown {
   position: relative;
-  bottom: -50px;
-  right: 50px;
+  bottom: -230px;
+  right: 400px;
 }
 
 .projects {
   display: flex;
   position: relative;
-  left: 50px;
+  margin: 0 auto;
+  left: 100px;
 }
 
 .projectimage {
