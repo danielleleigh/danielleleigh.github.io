@@ -1,29 +1,30 @@
 h1 {
   text-align: center;
+  position: relative;
+  top: 300px;
 }
 
-h2 {
-  text-align: center;
-}
-
-button {
-  display: block;
-  margin: 0 auto;
+body {
+  background-image: url("/Users/danielle/Desktop/Design Elements/Digital Paper/Mystical/pattern_8.jpg");
+  font-family: Black Wano Demo;
+  color: #bc5530;
+  font-size: 24px;
+  text-decoration-color: black;
 }
 
 ul {
   list-style: none;
   text-align: center;
   text-decoration: none;
-  margin: 0 auto;
-  text-decoration: none;
+  margin: 0px;
+  color: #8d5d3f;
 }
 
 li {
   margin: 0px 12px;
   display: inline;
-  padding-right: 10px;
-  padding-bottom: 20px;
+  /* padding-right: 10px; */
+  padding: 0px;
 }
 
 img {
@@ -76,4 +77,12 @@ img {
   padding: 5px;
   position: inherit;
   left: 15px;
+}
+
+a:visited {
+  color: #8d5d3f;
+}
+
+a:hover {
+  color: #d58144;
 }
