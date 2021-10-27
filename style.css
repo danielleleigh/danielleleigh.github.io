@@ -28,26 +28,39 @@ li {
 
 img {
   display: block;
-  margin-left: 350px;
-  margin-right: 40px;
-  border: 5px solid black;
-  border-radius: 20px;
-  max-width: 100%;
 }
 
 .aboutmeinfo {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
 }
 
 .image {
-  flex-basis: 40%;
-  margin-left: 400px;
-  margin-right: 5px;
+  flex-basis: 5%;
+  /* display: block; */
+  /* margin-left: -300px;
+  margin-right: 50px; */
+  margin-left: 350px;
+  margin-right: 60px;
+  position: relative;
+  left: -10px;
+  border: 5px solid black;
+  /* max-width: auto; */
 }
 
 .paragraph1 {
   font-size: 14px;
-  padding-right: 150px;
+  /* padding-right: 100px; */
+  border: 5px solid black;
+  text-align: center;
+  position: relative;
+  left: 270px;
+  bottom: 80px;
+}
+
+.languagesknown {
+  position: relative;
+  bottom: -50px;
+  right: 50px;
 }
