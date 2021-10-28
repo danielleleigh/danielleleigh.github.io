@@ -81,13 +81,28 @@ img {
   position: relative;
   margin: 0 auto;
   left: 100px;
+  text-align: left;
 }
 
 .projectimage {
   flex: 33.33%;
   padding: 5px;
-  position: inherit;
-  left: 15px;
+  left: 20px;
+  text-align: left;
+}
+
+.contacts {
+  flex: 33.33%;
+  padding: 5px;
+  left: 20px;
+  text-align: left;
+}
+
+.socialmedia {
+  display: flex;
+  position: relative;
+  left: 100px;
+  text-align: left;
 }
 
 a:visited {
@@ -96,4 +111,6 @@ a:visited {
 
 a:hover {
   color: #d58144;
+  transition-delay: 0.05s;
+  zoom: 150%;
 }
